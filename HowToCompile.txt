@@ -1,0 +1,5 @@
+Compilation on a linux system is bound to fail as MATLAB can not use mex
+
+However, you can compile with octave and then use the compiled mex files in 
+matlab. You might need to change extensions from mex to mexa64 . I am not
+sure how long this is going to work but for now it does the job. 
